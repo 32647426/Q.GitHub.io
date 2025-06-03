@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../个人主页/css/上传.css" rel="stylesheet" type="text/css">
+    <script text="text/javascript" src="../个人主页/jQuery/jquery-3.5.0.min.js"></script>
+    <script text="text/javascript" src="../个人主页/js/上传.js"></script>
+    <title>作品上传</title>
+</head>
+
+<body>
+    <div id="all">
+        <div class="top">
+            <a href="#"><img src="../个人主页/images/logo.jpg" id="logo"></啊>
+                <ul>
+                    <li><a href="../首页/index/index.html">首页</a></li>
+                    <li><a href="../作品集/html/picshow.html">作品集</a></li>
+                    <li><a href="上传.html">作品上传</a></li>
+                    <li><a href="../论坛/index.HTML">论坛</a></li>
+                    <li><a href="个人主页.html">个人中心</a></li>
+                </ul>
+                <div class="search">
+                    <input type="text" placeholder='搜索作品、活动、摄影师' class="inputSearch">
+                </div>
+                <img src="../个人主页/images/icon.jpeg" class="round_icon">
+                <span class="userName">搬砖侠</span>
+        </div>
+        <div class='content'>
+            <div class="left">
+                <input type="file" id="btn_file" style="display:none">
+                <div class="choose" onclick="F_Open_dialog()">
+                    <span>+</span>
+                    <h3>选择图片</h3>
+                </div>
+            </div>
+            <div class="right">
+                <div class="title">
+                    <span>标题</span><br/>
+                    <input type="text">
+                </div>
+
+                <div class="describe">
+                    <span>描述</span><br/>
+                    <input type="text" placeholder='分享镜头背后的故事'>
+                </div>
+
+                <div class="attribute">
+                    <span>属性</span><br/>
+                    <select>
+                        <option>公开</option>
+                        <option>私有</option>
+                    </select>
+                </div>
+
+                <div class="type">
+                    <span>分类</span><br/>
+                    <select>
+                        <option>未分类</option>
+                        <option>抽象</option>
+                        <option>动物</option>
+                        <option>黑白</option>
+                        <option>人物</option>
+                        <option>胶片</option>
+                        <option>艺术</option>
+                        <option>纪实</option>
+                    </select>
+                </div>
+
+                <button type="submit">发布图片</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

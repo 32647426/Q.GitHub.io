@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../个人主页/css/个人主页.css" rel="stylesheet" type="text/css">
+    <script text="text/javascript" src="../个人主页/jQuery/jquery-3.5.0.min.js"></script>
+    <script text="text/javascript" src="../个人主页/js/个人主页.js"></script>
+    <title>个人主页</title>
+</head>
+
+<body>
+    <div id="all">
+        <div class="top">
+            <a href="#"><img src="../个人主页/images/logo.jpg" id="logo"></a>
+            <ul>
+                <li><a href="../首页/index/index.html">首页</a></li>
+                <li><a href="../作品集/html/picshow.html">作品集</a></li>
+                <li><a href="上传.html">作品上传</a></li>
+                <li><a href="../论坛/index.HTML">论坛</a></li>
+                <li><a href="个人主页.html">个人中心</a></li>
+            </ul>
+            <div class="search">
+                <input type="text" placeholder='搜索作品、活动、摄影师' class="input">
+            </div>
+            <img src="../个人主页/images/icon.jpeg" class="round_icon">
+            <span class="userName">搬砖侠</span>
+        </div>
+
+        <div class="banner">
+            <input type="file" id="btn_file" style="display:none">
+            <div class="poster" onclick="F_Open_dialog()">设置个人封面</div>
+        </div>
+        <div class="icon"></div>
+        <span class="name">搬砖侠</span>
+        <div id="tabs">
+            <ul>
+                <li style="margin-left: 37%;">全部</li>
+                <li class="cur">作品</li>
+                <li>图文</li>
+                <li>点评</li>
+                <li>简介</li>
+            </ul>
+        </div>
+        <div class="content">
+            <img src="../个人主页/images/no.png" id="no">
+            <h2>还没有图片作品</h2>
+        </div>
+    </div>
+</body>
+
+</html>
